@@ -6,6 +6,7 @@
     "@ant-design/charts": "^2.0.3",
     "antd": "^5.14.0",
     "firebase": "^10.8.1",
+    "gh-pages": "^6.1.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-hooks": "^1.0.1",
@@ -13,6 +14,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,5 +42,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "https://vishalmali858.github.io/tp_prediction"
 }
