@@ -5,7 +5,7 @@ import CardsAnalysis from "./CardAnalysis";
 import CardGame from "./CardGame.js";
 
 function App() {
-  const [cardAnalysis, setCardAnalysis] = useState(true);
+  const [cardAnalysis, setCardAnalysis] = useState(false);
   return (
     <ConfigProvider theme={{ token: { colorPrimary: "#00b96b" } }}>
       <div className="App">
